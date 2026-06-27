@@ -198,10 +198,8 @@ PermitEmptyPasswords no
 UsePAM yes
 X11Forwarding yes
 PrintMotd no
-ClientAliveInterval 120  # we test 60 secs later 
-ClientAliveCountMax 3
-#ClientAliveInterval 300
-#ClientAliveCountMax 2
+ClientAliveInterval 300
+ClientAliveCountMax 2
 UseDNS no
 LogLevel QUIET
 AcceptEnv LANG LC_*
